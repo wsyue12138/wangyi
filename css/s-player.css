@@ -1,0 +1,73 @@
+#splayer{
+	width: 100%;
+	height: 2.14rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 998;
+}
+#splayer div.pic{
+	width: 15%;
+	height: 2.14rem;
+	position: relative;
+}
+#splayer div.pic img{
+	width: 1.85rem;
+	height: 1.85rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -0.9rem;
+	margin-top: -0.9rem;
+}
+#splayer div.title{
+	height: 2.14rem;
+	width:48%;
+	text-align: left;
+	font-size: 0.8rem;
+	color: #000;
+	text-indent: 0.2rem;
+}
+#splayer div.title  p.singer{
+	color: #ccc;
+	font-size: 0.6rem;
+}
+#splayer div.control{
+	width: 37%;
+	height: 2.14rem;
+	color: #ce3d3a;
+}
+#splayer div.control i.l{
+	font-size: 1rem;
+	height: 100%;
+	line-height: 2.14rem;
+	margin: 0 0.5rem;
+}
+#splayer div.control div.btn{
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 1px #ce3d3a solid;
+	border-radius: 50%;
+	margin: 0.3rem 0.1rem;
+	text-align: center;
+}
+#splayer div.control div.btn i{
+	font-size: 0.8rem;
+	line-height: 1.4rem;
+	margin-left: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

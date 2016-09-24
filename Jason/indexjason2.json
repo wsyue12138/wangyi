@@ -1,0 +1,26 @@
+{
+	"data":{
+	"img_tjgd":["img/index_dl_1.jpg","img/index_dl_2.jpg","img/index_dl_3.jpg","img/index_dl_4.jpg","img/index_dl_5.jpg","img/index_dl_6.jpg"],
+	"name_tjgd":["校园爱情||你是我的未完待续","『华语』你是我想要守望的星星","[节奏控]那些超带感的音乐(典藏版)","世界音乐--传统与流行下的一块璞","[节奏控]超带感的英文歌(经典篇)","搞摇滚的男人是咋恋爱的"],
+	"logo_tjgd":"img/index_banner_tjgd_logo.jpg",
+	"value_tjgd":"推荐歌单",
+	"img_djfs":["img/index_dl_7.jpg","img/index_dl_8.jpg","img/index_dl_9.jpg"],
+	"name_djfs":["音乐专栏 有没有那么一首歌会让你想给他打钱","探索频道 第138期 美国恐怖故事，专注音乐体验了","音乐专栏《七月与安生》可能是今年最“燃”的青春片"],
+	"logo_djfs":"img/index_banner_djfs_logo.jpg",
+	"value_djfs":"独家放送",
+	"img_zxyy":["img/index_dl_10.jpg","img/index_dl_11.jpg","img/index_dl_12.jpg","img/index_dl_13.jpg","img/index_dl_14.jpg","img/index_dl_15.jpg"],
+	"name_zxyy":["分手后不要做朋友（2016）","Bridget Jones`s Baby (Original...)","彩虹金刚","Zillionaire (Remixes)","Part 3","W OST V.A"],
+	"logo_zxyy":"img/index_banner_zxyy_logo.jpg",
+	"value_zxyy":"最新音乐",
+	"img_tjmv":["img/index_dl_16.jpg","img/index_dl_17.jpg","img/index_dl_18.jpg","img/index_dl_19.jpg"],
+	"name_tjmv":["人啊 ！","That`s My Girl","寒衫浮梦","Stand by me"],
+	"logo_tjmv":"img/index_banner_tjmv_logo.jpg",
+	"value_tjmv":"推荐MV",
+	"img_zbdt":["img/index_dl_20.jpg","img/index_dl_21.jpg","img/index_dl_22.jpg","img/index_dl_23.jpg","img/index_dl_24.jpg","img/index_dl_25.jpg"],
+	"name_zbdt":["爱情里的你，有没问过这些问题","《偷窥狂人》电影分析（3/3） Vol.82","你来过一下子，我念了一辈子","敬无望的爱情","告白气球","致所有适婚青年"],
+	"logo_zbdt":"img/index_banner_zbdt_logo.jpg",
+	"value_zbdt":"主播电台"
+
+	}
+	
+}

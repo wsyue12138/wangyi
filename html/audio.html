@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=2" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/audio.css"/>
+		<link rel="stylesheet" type="text/css" href="../tubiao/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="../tubiao/iconfont.css"/>
+		<script src="../js/rem.js"></script>
+		<script type="text/javascript" src="../js/zepto.js" ></script>
+		<script src="../js/audio.js"></script>
+	</head>
+	<body>
+		<audio id="audio" autoplay="" loop="loop" style="display: none;">
+			<source src=""></source>
+		</audio>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<div class="title">
+		        		<i class="l iconfont btn-back">&#xe620;</i>
+		        		<p class="l"><span class="gm"></span><br /><span class="name"></span></p>
+		        		<i class="r iconfont">&#xe600;</i>
+		        	</div>
+		        	<div class="change">
+			        	<div class="cd1">
+			        		<div class="rotate">
+				        		<div class="bang"><img src="../img/bang.png"/></div>
+				        		<div class="CD">
+				        			<div class="pic"><img src=""/></div>
+				        		</div>
+				        	</div>
+				        	<div class="download">
+				        		<i class="iconfont">&#xe612;</i>
+				        		<i class="iconfont">&#xe60e;</i>
+				        		<i class="iconfont">&#xe613;</i>
+				        		<i class="iconfont">&#xe60b;</i>
+				        	</div> 
+			        	</div>  
+			        	<div class="cd2">
+			        		<div id="vol">
+			        			<i class="l iconfont">&#xe61c;</i>
+			        			<div id="vpro" class="l">
+			        				<div id="vdrag"></div>
+									<div id="vcur"></div>
+			        			</div>
+			        		</div>
+			        		<div class="lrc">
+				        		<div id="lrc">
+				   
+				        		</div>		        			
+			        		</div>
+			        	</div>
+		        	</div>
+		        	<div id="progress">
+		        		<span class="cur l">00:00</span>
+		        		<span class="all r">00:00</span>
+		        		<div class="progress l" id="pro">
+		        			<div class="drag" id="drag"></div>
+		        			<div class="cur" id="cur"></div>
+		        		</div>
+		        	</div>
+		        	<div class="control">
+		        		<i class="iconfont l">&#xe615;</i>
+		        		<i class="iconfont r">&#xe601;</i>
+		        		<p class="l">
+		        			<i class="iconfont prev">&#xe617;</i>	
+		        			<i class="iconfont open">&#xe619;</i>	
+		        			<i class="iconfont next">&#xe618;</i>	
+		        		</p>
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="mark"></div>
+		    <img class="blur" src=""/>
+		</div>
+		<textarea id="txt">
+			
+		</textarea>
+	</body>
+</html>

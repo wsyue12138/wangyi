@@ -1,0 +1,347 @@
+@charset "utf-8";
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+	height: 100%;
+	width: 100%;
+}
+.swiper-container{
+	position: relative;
+}
+.blur {    
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);   
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            opacity: 0.5;
+}
+.mark{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	background-image: -webkit-linear-gradient(0,black 0,black 100%);
+}
+div.title{
+	width: 100%;
+	height: 2.75rem;
+	color: #fff;
+}
+div.title i{
+	width: 15%;
+	text-align: center;
+	line-height: 2.75rem;
+	font-size: 1.5rem;
+}
+div.title p{
+	width: 70%;
+	height: 2.75rem;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 1.3rem;
+}
+div.title p span.name{
+	color: #ccc;
+}
+div.rotate{
+	width: 100%;
+	height: 18.2rem;
+}
+div.rotate div.bang{
+	width: 100%;
+	height: 2.9rem;
+	background: url(../img/base.png) no-repeat center -1.4rem;
+	background-size: 35% 100%;
+	position: relative;
+	border-top: 1px #aaa solid;
+}
+div.rotate div.bang img{
+	width: 5.7rem;
+	height: 3.7rem;
+	margin-left: 7.4rem;
+	top: -0.1rem;
+	position: absolute;	
+	transform-origin: 10% 0%;
+	z-index: 100;
+}
+img.opened{
+	animation: opened 1s linear both;
+}
+img.close{
+	animation: close 1s linear both;
+}
+@keyframes opened{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(25deg);}
+}
+@keyframes close{
+	0%{transform: rotate(25deg);}
+	100%{transform: rotate(0);}
+}
+div.rotate div.CD{
+	height: 12.4rem;
+	width: 12.4rem;
+	margin:0 auto ;
+	background: url(../img/audio-CD.png) no-repeat center;
+	background-size:100% 100% ;
+	position: relative;
+	margin-bottom: 3rem;
+}
+div.rotate div.CD div.pic{
+	width: 8.2rem;
+	height: 8.2rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -4.1rem;
+	margin-top: -4.1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	animation: rotate 6s linear infinite;
+	animation-play-state: paused;
+}
+div.rotate div.CD div.pic.rotated{
+	animation-play-state: running;
+}
+div.rotate div.CD div.pic img{
+	width: 8.2rem;
+	height: 8.2rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -4.1rem;
+	margin-top: -4.1rem;
+}
+@keyframes rotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+@-moz-keyframes rotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+@-ms-keyframes rotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+@-webkit-keyframes rotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+div.download{
+	height: 1.84rem;
+	width: 100%;
+	text-align: center;
+	color: #CCCCCC;
+	line-height: 1.84rem;
+}
+div.download i{
+	font-size: 1.1rem;
+	margin: 0 1rem;
+}
+#progress{
+	height: 2.0rem;
+	width: 100%;
+	color: #ccc;
+}
+#progress span{
+	height: 2.0rem;
+	width: 12%;
+	line-height: 2.0rem;
+	text-align: right;
+	font-size: 0.6rem;
+}
+#progress span.all{
+	text-align: left;
+}
+#progress div.progress{
+	height: 0.1rem;
+	width: 70%;
+	background: #ccc;
+	position: relative;
+	left: 0.4rem;
+	top: 1rem;
+}
+#progress div.progress div.drag{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: -0.45rem;
+	z-index: 10;
+}
+#progress div.progress div.cur{
+	background: #ff3838;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+}
+div.control{
+	height: 2.76rem;
+	width: 100%;
+}
+div.control i{
+	width: 12%;
+	height: 2.76rem;
+	line-height: 2.76rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #ccc;
+}
+div.control p{
+	width: 76%;
+	height: 2.76rem;
+	text-align: center;
+}
+div.control p i{
+	margin: 0 1rem;
+	font-size: 1.5rem;
+	color: #fff;
+}
+/*==歌词样式===*/
+div.change{
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+	position: relative;
+}
+div.change div.cd1{
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+div.change div.cd2{
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+div.change div.cd1.close{
+	animation:hidecd 0.5s linear both ;
+}
+div.change div.cd1.show{
+	animation:showcd 0.5s linear 0.5s both ;
+}
+@keyframes hidecd{
+	0%{transform: scale(1.1);opacity: 1;}
+	50%{transform: scale(1);opacity: 0.5;}
+	100%{transform: scale(0.9);opacity: 0;}
+}
+@keyframes showcd{
+	0%{transform: scale(0.9);opacity: 0;}
+	100%{transform: scale(1);opacity: 1;}
+}
+div.change div.cd2.show{
+	animation:showlrc 0.5s linear 0.5s both ;
+}
+div.change div.cd2.close{
+	animation:hidelrc 0.5s linear both ;
+}
+@keyframes showlrc{
+	0%{transform: scale(0.9);opacity:0;}
+	100%{transform: scale(1);opacity: 1;}
+}
+@keyframes hidelrc{
+	0%{transform: scale(1.1);opacity: 1;}
+	50%{transform: scale(1);opacity: 0.5;}
+	100%{transform: scale(0.9);opacity: 0;}
+}
+#vol{
+	width: 100%;
+	height: 2.9rem;
+}
+#vol i{
+	width: 15%;
+	height: 2.9rem;
+	line-height: 2.9rem;
+	text-align: center;
+	color: #ccc;
+	font-size: 1rem;
+}
+#vpro{
+	width: 70%;
+	height: 0.1rem;
+	background: #757372;
+	position: relative;
+	top: 1.4rem;
+}
+#vdrag{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: -0.2rem;
+	z-index: 10;
+}
+#vcur{
+	height: 0.1rem;
+	width: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #757372;
+	background: #ccc;
+}
+div.lrc{
+	width: 100%;
+	height: 20rem;
+	text-align: center;
+	line-height: 1.7rem;
+	font-size: 1rem;
+	color: #bbb;
+	overflow: hidden;
+}
+#lrc{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

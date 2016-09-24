@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title>网昜云音乐</title> 
+		<--制作团队：北六环第一前端项目组 成员8人 -->
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/indexstyle.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="tubiao/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="tubiao/iconfont.css"/>
+	<link rel="stylesheet" href="css/self.css" />
+	<link rel="stylesheet" type="text/css" href="css/audiolist.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/diantai.css"/>
+	<link rel="stylesheet" type="text/css" href="css/rank.css"/>
+	<link rel="stylesheet" type="text/css" href="css/s-player.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+	<body>
+		
+		<header>
+			<div id="top">
+				<ul>
+					<li class="one" id="toptb1"><i class="iconfont">&#xe623;</i></li>
+					<li id="toptb2"><i class="iconfont">&#xe624;</i></li>
+					<li id="toptb3"><i class="iconfont">&#xe625;</i></li>
+					<li id="toptb4"><i class="iconfont">&#xe622;</i></li>
+					<li class="two" id="toptb5"><i class="iconfont">&#xe61e;</i></li>
+				<ul>
+			</div>
+
+		</header>
+		<div id="onav_all">
+		<nav id="swiper-container2">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide active-nav">个性推荐</li>
+				<li class="swiper-slide">歌单</li>
+				<li class="swiper-slide">主播电台</li>
+				<li class="swiper-slide">排行榜</li>
+			</ul>
+			
+		</nav>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-09-21
+        	描述：版心及功能栏
+        -->
+		<div id="content">
+			<div class="swiper-container_all">
+    		<div class="swiper-wrapper dgdfgs ">
+    			<!--
+                	作者：offline
+                	时间：2016-09-21
+                	描述：第一个大滑块
+                -->
+        		<div class="swiper-slide banner_silde1 big_slide">
+        			<!--
+                    	作者：offline
+                    	时间：2016-09-21
+                    	描述：iscroll 传参对象
+                    -->
+        			<div class="gxtj_wrapper" style="margin-bottom: 2.556rem;">
+        				<!--
+                        	作者：offline
+                        	时间：2016-09-21
+                        	描述：iscroll 对象
+                        -->
+        				<div class="gxtj_list">
+		        			<!--
+		                    	作者：offline
+		                    	时间：2016-09-21
+		                    	描述：版心轮播图
+		                    -->
+				        	<div id="banner">
+								<div class="swiper-container">
+					    			<div class="swiper-wrapper">
+					    				
+					    			</div>
+								</div>
+								<!--
+		                        	作者：offline
+		                        	时间：2016-09-21
+		                        	描述：轮播图里的小点
+		                        -->
+								<div class="banner_checked">
+									<div class="l"></div>
+									<div class="l"></div>
+									<div class="l"></div>
+									<div class="l"></div>
+									<div class="l"></div>
+									<div class="l"></div>
+									<div class="l"></div>
+								</div>
+							</div>
+							<!--
+		                    	作者：offline
+		                    	时间：2016-09-21
+		                    	描述：第二个导航栏
+		                    -->
+							<div id="nav">
+								<div class="nav_self_fm">
+									<span></span>
+									<img src="img/index_banner_fx.jpg"/>
+								</div>
+								<div class="nav_self_gqtj">
+									<span></span>
+									<img src="img/index_banner_gqtj.jpg"/>
+								</div>
+								<div class="nav_self_xgb">
+									<span></span>
+									<img src="img/index_banner_yyyxgb.jpg"/>
+								</div>
+							</div>
+							<!--
+		                    	作者：offline
+		                    	时间：2016-09-21
+		                    	描述：推荐歌单
+		                    -->
+							
+							<!--
+		                    	作者：offline
+		                    	时间：2016-09-21
+		                    	描述：iscroll
+		                    -->
+							<div id="bottom">
+								
+								
+							</div>
+							<div id="footer">
+								<p>现在可以根据个人喜好，自由调整首页栏目顺序啦</p>
+								<div class="footer_change">调整栏目顺序</div>
+							</div>
+        				</div>
+        				
+        			</div>
+					
+        		</div>
+        		<!--
+                	作者：offline
+                	时间：2016-09-21
+                	描述：第二个大滑块
+                -->
+             <div class="swiper-slide banner_silde2 big_slide" id="audilist">
+             	<div class="almain">
+					<div class="allist">
+						<div class="almain-top">
+							<div class="alred l">
+								
+							</div>
+							<p class="l">全部歌单</p>
+							<div class="albtn r">
+								选择分类
+							<span></span>	
+							</div>
+						</div>
+						<div class="aljing">
+							<dl class="odl">
+								<dt class="l"><img src="img/al2.gif"></dt>
+								<dd class="l">
+									<h2>精品歌单</h2>
+									<p>电影中的钢琴曲，最会讲故事</p>
+								</dd>
+								<span class="r">></span>
+							</dl>
+						</div>
+						<div class="alpic">
+							
+						</div>
+					</div>
+				</div>	
+
+             </div>
+
+		        
+		        <!--
+                	作者：offline
+                	时间：2016-09-21
+                	描述：第三个大滑块
+                -->
+		        <div class="swiper-slide banner_silde3 big_slide">
+		   <div class="swiper-diantai_waikuang">
+			<div class="swiper-chajian_waikuang">
+				<div class="swiper-chajian_top swiper-container">
+					<div class="swiper-wrapper">
+					<div class="chajian_top1 swiper-slide"></div>
+					<div class="chajian_top2 swiper-slide"></div>
+					<div class="chajian_top3 swiper-slide"></div>
+					</div>
+				</div>
+				<div class="swiper-chajian_top1"></div>
+				<div class="swiper-chajian_top2"></div>
+				<div class="swiper-chajian_top3"></div>
+				<div class="json"></div>
+			</div>
+		</div>
+
+		        	
+		        </div>
+		        <!--
+                	作者：offline
+                	时间：2016-09-21
+                	描述：第四个大滑块
+                -->
+		        <div class="swiper-slide banner_silde4 big_slide">
+		        			<div id="main">
+			<div class="list">
+				<div class="page" id="page1">
+					<h3 class="title">
+						<span class="icon"></span>
+						<span>官方榜</span>
+					</h3>
+					<dl>
+						<dt><img src="img/page1_1.jpg"/></dt>
+						<dd>
+							<p>1.你喜欢海却不喜欢山 - 鹿先森乐队</p>
+							<p>2.extremology极端者 - 尚雯婕</p>
+							<p>3.来日方长 - 薛之谦/黄龄</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page1_2.jpg"/></dt>
+						<dd>
+							<p>1.来日方长 - 薛之谦/黄龄</p>
+							<p>2.一笑倾城 - 汪苏泷</p>
+							<p>3.不说 - 李荣浩</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page1_3.jpg"/></dt>
+						<dd>
+							<p>1.月 - 好妹妹乐队</p>
+							<p>2.你喜欢海却不喜欢山 - 鹿先森乐队</p>
+							<p>3.香草馥 - 戴荃</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page1_4.jpg"/></dt>
+						<dd>
+							<p>1.演员 - 薛之谦</p>
+							<p>2.告白气球 - 周杰伦</p>
+							<p>3.你还要我怎样 - 薛之谦</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page1_5.jpg"/></dt>
+						<dd>
+							<p>1.周杰伦</p>
+							<p>2.薛之谦</p>
+							<p>3.陈奕迅</p>
+						</dd>
+					</dl>
+				</div>
+				
+				<div class="page" id="page2">
+					<h3 class="title">
+						<span class="icon"></span>
+						<span>全球榜</span>
+					</h3>
+					<dl>
+						<dt><img src="img/page2_1.jpg"/></dt>
+						<dd>
+							<h4>云音乐ACG音乐榜</h4>
+							<p>刚刚更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_2.jpg"/></dt>
+						<dd>
+							<h4>云音乐电音榜</h4>
+							<p>每周五更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_3.jpg"/></dt>
+						<dd>
+							<h4>韩国Melon排行榜周榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_4.jpg"/></dt>
+						<dd>
+							<h4>韩国Melon原声周榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_5.jpg"/></dt>
+						<dd>
+							<h4>韩国Mnet排行榜周榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_6.jpg"/></dt>
+						<dd>
+							<h4>中国TOP排行榜（内地榜）</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_7.jpg"/></dt>
+						<dd>
+							<h4>香港电台中文歌曲龙虎榜</h4>
+							<p>每周五更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_8.jpg"/></dt>
+						<dd>
+							<h4>华语金曲榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					
+					<dl>
+						<dt><img src="img/page2_9.jpg"/></dt>
+						<dd>
+							<h4>中国嘻哈榜</h4>
+							<p>每周五更新</p>
+						</dd>
+					</dl>
+					
+				</div>
+			
+				<div class="page" id="page3">
+					<h3 class="title">
+						<span class="icon"></span>
+						<span>用户榜</span>
+					</h3>
+						
+					<dl>
+						<dt><img src="img/page3_1.jpg"/></dt>
+						<dd>
+							<h4>音乐达人榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/page3_2.jpg"/></dt>
+						<dd>
+							<h4>音乐新人榜</h4>
+							<p>每周一更新</p>
+						</dd>
+					</dl>	
+				</div>
+				<div style="height: 2.656rem;">
+					
+				</div>
+			</div>
+		</div>
+		
+
+		        </div>
+    		</div>
+		</div>
+			
+			
+			
+			
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-09-22
+        	描述：个人信息
+  -->
+				<section id="self">
+			<section class="self_mask"></section> <!--遮罩-->
+			<section class="self_content"><!--主体外框-->
+				<section class="self_content_top">
+					<ul class="self_content_top_ul">
+						<li class="self_content_top_li1">
+							<div class="self_content_top_li1_btn"><a href="html/zhuce.html"></a></div>
+						</li>
+						<li class="self_content_top_li2"><i class="iconfont">&#xe605;</i>我的消息<span>0</span></li>
+						<li class="self_content_top_li3"><i class="iconfont">&#xe604;</i>积分商城</li>
+						<li class="self_content_top_li4"><i class="iconfont">&#xe60a;</i>会员中心</li>
+						<li class="self_content_top_li5"><i class="iconfont">&#xe625;</i>在线听歌免流量<span>免费试用</span></li>
+						<li class="self_content_top_li6"><i class="iconfont">&#xe614;</i>听歌识曲</li>
+						<li class="self_content_top_li7"><i class="iconfont">&#xe607;</i>主题换肤<span></span></li>
+						<li class="self_content_top_li8"><i class="iconfont">&#xe602;</i>
+							夜间模式
+							<div class="self_content_top_li8_btnbox">
+								<i class="self_content_top_li8_btnbox_down"></i>
+								<i class="self_content_top_li8_btnbox_up"></i>
+							</div>
+						</li>
+						<li class="self_content_top_li9"><i class="iconfont cg">&#xe60c;</i>定时停止播放</li>
+						<li class="self_content_top_li10"><i class="iconfont cg">&#xe610;</i>音乐闹钟</li>
+						<li class="self_content_top_li11"><i class="iconfont cg">&#xe611;
+</i>驾驶模式</li>
+						<li class="self_content_top_li12"><i class="iconfont cg">&#xe603;</i>我的音乐云盘</li>
+						<li class="self_content_top_last"></li>
+					</ul>
+				</section><!--主体内容-->
+				
+				
+				<section class="self_content_bottom">
+					<ul class="self_content_bottom_ul">
+						<li class="self_content_bottom_li1">
+							<a href="html/set.html">设置</a>
+						</li>
+						<li class="self_content_bottom_li2">
+							<a href="javascript:;">退出应用</a>
+						</li>
+					</ul>
+				</section><!--尾部定位-->
+			</section>
+		</section>
+<!--
+	作者：offline
+	时间：2016-09-22
+	描述：设置
+-->
+<!--
+	作者：offline
+	时间：2016-09-23
+	描述：底部播放器
+-->
+		<div id="splayer">
+			<audio id="audio" autoplay="autoplay" style="display: none;">
+				<source src="" type="audio/mp3"></source>
+			</audio>
+			<div class="pic l"><img src=""/></div>
+			<div class="title l">
+				<p class="gm"></p>
+				<p class="singer"></p>
+			</div>
+			<div class="control l">
+				<i class="iconfont l">&#xe601;</i>
+				<div class="l btn"><i class="iconfont">&#xe619;</i></div>
+				<i class="iconfont l next">&#xe618;</i>
+			</div>
+		</div>
+<!--
+	作者：offline
+	时间：2016-09-23
+	描述：成员列表
+-->		
+		<ul id="contact">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div id="close">+</div>
+	</body>
+	
+	
+
+	<script type="text/javascript" src="js/rem.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+	<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/swiper.animate1.0.2.min.js" ></script>
+	<script type="text/javascript" src="js/swiper.min.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/zepto.js" ></script>
+	<script type="text/javascript" src="js/self_touch.js" ></script>
+	<script src="js/startrem.js"></script>
+	<script src="js/audiolist.js"></script>
+ 	<script src="js/diantai.js"></script>
+ 	<script src="js/rank.js"></script>
+<script type="text/javascript" src="js/s-player.js" ></script>
+<script type="text/javascript" src="js/contact.js" ></script>
+</html>

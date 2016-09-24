@@ -1,0 +1,149 @@
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+/*body,html*/
+body,html{
+	width: 100%;
+	height: 100%;
+	background:url(../img/alback.jpg);
+	background-size:100% 100%;
+}
+/*header 搜索*/
+/*.alfix{
+	width:100%;
+	height:3.6rem;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:3;
+}*/
+header{
+	height: 2.3rem;
+	background: #ce3d3e;
+	padding-top: 3.75%;
+}
+/*nav  导航*/
+nav{
+	height: 1.3rem;
+	background: #fcfdfd;
+}
+/*main*/
+#audilist{
+	width:100%;
+	height:23.75rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+.almain{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	
+	-webkit-box-flex: 1;
+}
+
+
+
+.allist{
+	width:100%;
+	position:absolute;
+
+}
+.almain-top{
+	height:2.55rem;
+	background:#000;
+	opacity:.5;
+	color:#fff;
+	padding:0 0.5rem;
+}
+.almain-top .alred{
+	width:0.15rem;
+	height:0.9rem;
+	background:#ce3d3a;
+	margin-top:0.9rem;
+	margin-right:0.25rem;
+	border-radius:35%;
+}
+.almain-top p{
+	font-size:0.75rem;
+	margin-top:0.9rem;
+}
+.albtn{
+	width:2.6rem;
+	height:1.4rem;
+	border:1px solid #5D5D5D;
+	border-radius:0.3rem;
+	padding-left:1.2rem;
+	line-height: 1.4rem;
+	font-size:0.6rem;
+	margin-top:0.6rem;
+	position:relative;
+}
+.albtn span{
+	position:absolute;
+	left:9%;
+	top:26%;
+	width:0.6rem;
+	height:0.6rem;
+	background:url(../img/al1.gif);
+	background-size:100% 100%;
+	opacity:.3;
+}
+.aljing{
+	height:3.3rem;
+	padding:0 0.3rem;
+	background:#ccc;
+	
+}
+.aljing dt{
+	width:3.3rem;
+	height:3.3rem;
+	opacity:1;
+}
+.aljing img{
+	width:3.3rem;
+	height:3.3rem;
+	opacity:1;
+}
+.aljing dd h2{
+	font-size:0.7rem;
+	margin-top:0.8rem;
+	margin-left:1.7rem;
+}
+.aljing dd p{
+	margin-top:0.6rem;
+	margin-left:0.3rem;
+}
+.aljing span{
+	font-size:0.9rem;
+	margin-top:1.3rem;
+}
+.alpic{
+	height:100%;
+	padding-left:0.5rem;
+}
+.alpic dl{
+	float:left;
+	width:7.3rem;
+	height:9.3rem;
+	margin-right:0.4rem;
+	margin-top:0.5rem;
+}
+.alpic dl dt{
+	width:7.3rem;
+	height:7.3rem;
+}
+.alpic dt img{
+	width:7.3rem;
+	height:7.3rem;
+}
+.alpic dd{
+	width:7.3rem;
+	line-height:0.6rem;
+	margin-top:0.3rem;
+	color:#fff;
+}
+

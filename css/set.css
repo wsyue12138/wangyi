@@ -1,0 +1,218 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+}
+
+/*header部分*/
+#header{
+	width: 100%;
+	height: 14%;
+	background: #ce3d3a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+#header.header_on{
+	position: absolute;
+}
+
+#header span{ 
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+#header .back{
+	
+	width: 1rem;
+	height: 0.9rem;
+	background: url(../img/setback.jpg);
+	background-size: 100% 100%;
+	margin-left: 0.9rem;
+}
+
+#header .set_logo{
+	font-size: 1rem;
+	color: #fff;
+	margin-left: 1.15rem;
+}
+
+/*main部分*/
+#main{
+	width: 100%;
+	height: 86%;
+	background: #f2f4f5;
+	position: relative;
+	left: 0;
+	top: 14%;
+}
+#list{
+	width: 100%;
+	position: absolute;
+}
+#main .list{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 0.5rem;
+}
+
+/*list标题*/
+#main .list .list_title{
+	font-size: 0.575rem;
+	color: #666;
+	padding-left: 0.5rem;
+	padding-top: 0.55rem;
+	padding-bottom: 0.525rem;
+	font-weight: normal;
+}
+
+/*list选项(dl)*/
+#main .list .list_dl{
+	padding: 0.55rem 0.75rem 0.475rem 0;
+	margin-left: 0.525rem;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+#main .list .list_dl dt{
+	float: left;
+}
+#main .list .list_dl dd{
+	float: right;
+	width: 2rem;
+	height: 1.05rem;
+}
+#main .list .list_dl dt span{
+	font-size: 0.7rem;
+	color: #333;
+}
+#main .list .list_dl dt p{
+	font-size: 0.425rem;
+	color: #999;
+	padding-top: 0.325rem;
+}
+
+#main .list .list_dl dd .scroll{
+	position: relative;
+	width: 2rem;
+	height: 1.05rem;
+}
+
+#main .list .list_dl dd .scroll_body{
+	width: 1.05rem;
+	height: 1.05rem;
+	background: #fafafa;
+	box-shadow: 1px 1px 1px #d9d9d9;
+	border-radius: 50%;
+	position: absolute;
+	left: -0.2rem;
+	top: 0;
+	z-index: 10;
+}
+#main .list .list_dl dd .scroll_bar{
+	width: 1.425rem;
+	height: 0.7rem;
+	background: #cecece;
+	border-radius: 0.3rem;
+	position: absolute;
+	left: 0;
+	top: 0.225rem;
+}
+
+/*list选项(div)*/
+#main .list .list_div{
+	padding: 0.55rem 0.75rem 0.475rem 0;
+	margin-left: 0.525rem;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+#main .list .list_div .left_con{
+	float: left;
+}
+#main .list .list_div .left_con p{
+	font-size: 0.425rem;
+	color: #999;
+	padding-top: 0.325rem;
+}
+
+#main .list .list_div .right_con{
+	float: right;
+	color: #888;
+	font-size: 0.575rem;
+}
+
+#main .list .list_last i{
+	font-style: normal;
+	padding: 0.175rem 0.325rem;
+	font-size: 0.475rem;
+	color: #fff;
+	background: #bc0c0c;
+	border-radius: 0.1rem;
+}
+
+#main .last_list{
+	margin-bottom: 0;
+}
+
+/*控制开关*/
+#main .list .active dd .scroll_body{
+	background: #ca3c39;
+	left: 0.525rem;
+}
+#main .list .active dd .scroll_bar{
+	background: #f0c5c4;
+}
+
+/*让开关不可选*/
+#main .list .disable dd .scroll_body{
+	background: #fafafa;
+	left: -0.2rem;
+	opacity: 0.8;
+}
+#main .list .disable dd .scroll_bar{
+	background: #cecece;
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

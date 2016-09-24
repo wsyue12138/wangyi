@@ -1,0 +1,105 @@
+html,body{ width: 100%; height: 100%; overflow: hidden;}
+
+#top{
+	width: 90%;
+	height: 8.75%;
+	background: #ce3d3a;
+	padding-top: 3.75%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+	position: fixed;
+	left: 0;
+	top:0;
+}
+#top ul li {
+	width: 15%;
+	height:100%;
+	float: left;
+	margin-left: 2%;
+	color: #e28b89;
+}
+#top ul li.one {
+	width: 24%;
+	height:100%;
+	float: left;
+	color: #fff;
+	margin-left:0 ;
+}
+#top ul li.two {
+	width: 12%;
+	height:100%;
+	margin-left: 13%;
+	float: left;
+	color: #fff;
+}
+#top ul #toptb4{
+	color: #fff;
+}
+#top ul li i{
+	width: 100%;
+	height:100%;
+	font-size: 30px;
+}
+#box2{ height:6.25%;background: #fcfdfd; margin-top: 19.35%;}
+#box2 ul{ width: 100%; height: 100%;}
+#box2 ul li{text-align: center;width:33.3%; font-size:14px;height:95%; border-bottom:solid #fcfdfd 3px; float:left;}
+#box2 ul li p{ padding-top: 8%; font-weight: bold;}
+.bo{ width:150%; height:4.5rem; overflow: hidden; border-bottom: 1px solid #e0e2e3;}
+#box2 ul li.active{border-bottom-color:red;}
+.swiper-container,.swiper-wrapper,.swiper-slide{ background:#f2f4f5;z-index: 5; width:100%; height:100%;  }
+.box2{height:3.15rem; width: 7.5rem;   margin: 2% 0;margin-left: 1.4%; float: left;}
+.denglu{ width:90%; height:25%; margin: 5% auto; background: #fff;}
+.denglu p{text-align: center; line-height: 4rem;}
+.denglu input{width: 90%; height: 25%;margin: 0 5%; font-weight: bold; background: #5ab5e7; color: #fff; border: none; border-radius: 4px; text-align: center;}
+h4{font-weight: normal; margin-left: 5%;}
+.pic{ width: 90%; height: 25%; margin: 5% auto;}
+.orange-slide ul li{ width: 90%; margin: 0 auto; height: 3rem;}
+.orange-slide ul li img{ float: left;}
+.orange-slide ul li a{float: left; width: 80%; line-height: 2.9rem; border-bottom:1px solid #d9dbdc;}
+
+
+#box{
+			width: 100%;
+			height: 100%;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+		}
+		#wrapper{
+			-webkit-box-flex: 1;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+		}
+		.list{
+			position: absolute;
+			width: 90%;
+			margin: 0 5%;
+		}
+		.da{
+			height:18rem;
+			width: 100%;
+			overflow: hidden;
+			margin-top: 20px;
+		}
+		.opic{
+			width: 10%;
+			height: 10%;
+			border-radius: 50%;
+			overflow: hidden;
+			float: left;
+			
+		}
+		.list a{ float: left;
+				color: #009AF7;
+		}
+		.list span{ 
+				color: #000;
+		}
+		.gua{ float: right; width: 20%; }
+		.ping{ float: right; width: 90%; margin-top: 2%;}
+		.n{ width: 90%; float: right; margin-top: 3%;}
+		.g{  float: left; margin-left: 10%; width:20%; height: 15%; margin-top: 3%;}
+		.p{ width: 50%; float: left; margin-top: 5%; margin-left: 3%;}
+		.p2{ width: 50%; float: left; margin-top: 1%; margin-left: 3%; margin-bottom: 5%; color:#919292 ;}
+		h1{ float:left; margin-left: 10%; font-weight: normal; color: #919292;}

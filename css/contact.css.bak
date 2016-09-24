@@ -1,0 +1,105 @@
+
+#contact{
+	width: 2rem;
+	height: 2rem;
+	position: fixed;
+	background: #ccc;
+	left: -1.3rem;
+	border-radius: 50%;
+	top: 7rem;
+	transform-style: preserve-3d;
+	background: url(../img/thumb.jpg) no-repeat center;
+	background-size: 100% 100%;
+	z-index: 100;
+	animation: rotate 20s linear infinite;	
+}
+#contact li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	display: none;
+}
+#contact li:nth-child(1){
+	transform:rotateZ(45deg) translateX(3rem);
+	background: url(../img/11.jpg) no-repeat center top;
+	background-size: 100% 100%;
+
+}
+#contact li:nth-child(2){
+	transform:rotateZ(90deg) translateX(3rem);
+	background: url(../img/1409560669609_image_4081.jpg) no-repeat center top;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(3){
+	transform:rotateZ(135deg) translateX(3rem);
+	background: url(../img/72be94000c7e768f424e600ae8126350.jpeg) no-repeat center;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(4){
+	transform:rotateZ(180deg) translateX(3rem);
+	background: url(../img/hduah.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(5){
+	transform:rotateZ(225deg) translateX(3rem);
+	background: url(../img/me.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(6){
+	transform:rotateZ(270deg) translateX(3rem);
+	background: url(../img/psu.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(7){
+	transform:rotateZ(315deg) translateX(3rem);
+	background: url(../img/tz.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+#contact li:nth-child(8){
+	transform:rotateZ(360deg) translateX(3rem);
+	background: url(../img/u=568177065,1546238041&fm=21&gp=0.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+@keyframes rotate{
+	100%{transform: rotate(360deg);}
+	0%{transform: rotate(0);}
+}
+
+#close{
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	background:#000;
+	color:#fff;
+	line-height:1rem;
+	font-size:1rem;
+	text-align:center;
+	transform:rotate(45deg);
+	position:fixed;
+	top:5rem;
+	left:4rem;
+	z-index:100;
+	opacity:0.5;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
